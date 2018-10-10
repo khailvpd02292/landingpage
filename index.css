@@ -1,0 +1,317 @@
+* {
+    box-sizing: border-box;
+}
+#wapper {
+    background: rgb(250, 250, 250);
+    width: 1435px;
+    height: auto;
+    margin: 0 auto;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.box1 {
+    width: 100%;
+    height: 300px;
+    background:-webkit-gradient(linear, 99% 67%, 0% 27%, from(#2d90ec), to(rgb(23, 10, 141)));
+}
+
+.box1.ND {
+    width: 100%;
+    height: 300px;
+}
+
+.box1 .ND .left {
+    float: left;
+    width: 50%;
+    height: 100%;
+    
+}
+
+.box1 .ND .left h1 {
+color: rgb(221, 219, 219);
+margin-top: 110px;
+padding-left: 150px;
+padding-right: 50px;
+border-right: 1px solid white;
+
+}
+
+.box1 .ND .right {
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+.box1 .ND .right p{
+    color: rgb(177, 174, 174);
+padding-top: 100px;
+padding-left: 50px;
+padding-right: 140px;
+font-weight: bold;
+}
+.box1 .ND .right button {
+background: rgb(7, 179, 58);
+border-radius: 20px;
+border: 0;
+width: 140px;
+height: 40px;
+color: white;
+font-weight: bold;
+margin-left: 50px;
+margin-top: 15px;
+cursor: pointer;
+}
+.box1 .ND .right button:hover{
+    background: rgb(14, 231, 25);
+}
+
+/*****************  BOX2 **********************/
+
+.box2 {
+    width: 100%;
+    height: 350px;
+    background:white;
+    border: 1px solid rgb(214, 211, 211);
+
+}
+
+.box2 .ND1 {
+   width: 100%;
+    height: 100%;
+}
+
+.box2 .ND1 .left1 {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.box2 .ND1 .left1 button {
+    background: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 140px;
+    height: 40px;
+    color: rgb(69, 71, 71);;
+    font-weight: bold;
+    margin-left: 150px;
+    margin-top: 15px;
+    cursor: pointer;
+    }
+.box2 .ND1 .left1 button:hover {
+    background: rgb(238, 237, 166);
+    border: 2px solid rgb(69, 71, 71);
+    }
+
+.box2 .ND1 .left1 h2{
+padding-left:150px;
+margin-top: 65px;
+color: rgb(69, 71, 71);
+}
+.box2 .ND1 .left1 p{
+    padding-left:150px;
+    padding-right: 55px;
+    color: rgb(129, 125, 125);
+}
+.box2 .ND1 .right1 {
+    width: 49%;
+    height: 100%;
+    float: left; 
+}
+.box2 .ND1 .right1 li{
+    list-style-type: none;
+    padding-left: 50px;
+    line-height: 45px;
+    border-left: 1px solid rgb(191, 194, 194);
+    color: rgb(63, 63, 62);
+   
+}
+.box2 .ND1 .right1 li:nth-child(1){
+    margin-top: 50px;
+    }
+.box2 .ND1 .right1 li i{
+    padding-right:10px;
+    color: rgb(9, 175, 9);
+}
+
+/****************  BOX3  **************/
+
+
+.box3 {
+    width: 100%;
+    height: 1150px;
+    border: 1px solid rgb(214, 211, 211);
+}
+.box3 .NDC{
+    width: 82%;
+    height: 280px;
+    background:white;
+   position: relative;
+   top:60px;
+    left: 100px;
+    box-shadow: 1px 1px 2px rgb(107, 106, 106);
+    margin-bottom: 50px;
+}
+.box3 .NDC .top{
+    width: 40%;
+    height: 100%;
+    float: left;
+    background-image: url(img/city-3660779_1920.jpg);
+    background-size: cover;
+}
+.box3 .NDC .center{
+    width: 40%;
+    height: 100%;
+    float: left;
+    background-image: url(img/hedgehog-3703244_1920.jpg);
+    background-size: cover;
+}
+.box3 .NDC .bottom{
+    width: 40%;
+    height: 100%;
+    float: left;
+    background-image: url(img/sun-3726030_1920.jpg);
+    background-size: cover;
+
+}
+
+.box3 .NDC .top1{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.box3 .NDC .top1 h2{
+    padding-top: 25px;
+    padding-left: 50px;
+    color: rgb(92, 95, 95);
+}
+.box3 .NDC .top1 p{
+    padding-left: 50px;
+    color: rgb(129, 125, 125);}
+.box3 .NDC .top1 button{
+    background: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 120px;
+    height: 40px;
+    color: rgb(69, 71, 71);;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.box3 .NDC .top1 button:hover {
+    background: rgb(238, 237, 166);
+    border: 2px solid rgb(69, 71, 71);
+}
+.button {
+    background: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 220px;
+    height: 40px;
+    color: rgb(69, 71, 71);;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top:50px;
+    margin-left: 450px;
+
+}
+.button:hover {
+    background: rgb(238, 237, 166);
+    border: 2px solid rgb(69, 71, 71);
+}
+
+/************   BOX4    **********/
+.box4{
+    background: white;
+width: 100%;
+height: 500px;
+border: 1px solid rgb(214, 211, 211);
+}
+.box4 .form{
+width: 50%;
+height: 380px;
+margin-top: 50px;
+float: left;
+border-right: 1px solid rgb(202, 193, 193);
+}
+.box4 h2{
+    padding-top: 10px;
+    padding-left: 80px;
+    color: rgb(92, 95, 95);  
+}
+.box4 p{
+    padding-left: 80px;
+    color: rgb(129, 125, 125);}
+form {
+    padding-top: 20px;
+    padding-left: 80px;  
+   
+} 
+input{
+    padding-left: 15px;
+    width: 200px;
+    height: 35px;
+    border-radius: 4px;
+    border: 1px solid rgb(207, 204, 204);
+}
+input:nth-child(2){
+    margin-left: 15px;
+}
+textarea{
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top:15px;
+    border-radius: 4px;
+    border: 1px solid rgb(207, 204, 204);
+}
+.send{
+    margin-top: 15px;
+    width: 150px;
+    background: white;
+    border-radius: 20px;
+    border: 1px solid rgb(179, 176, 176);
+    color: rgb(69, 71, 71);;
+    font-weight: bold;
+}
+.send:hover {
+    background: rgb(238, 237, 166);
+    border: 2px solid rgb(69, 71, 71);
+}
+.contact{
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-top: 88px;
+}
+.contact li{
+    padding-bottom: 30px;
+    list-style-type: none;
+    padding-left: 50px;
+    line-height: 25px;
+    color: rgb(0, 59, 0);
+    text-decoration: none;
+     
+}
+.contact li a{
+    text-decoration: none;
+    padding-left: 15px;
+    color: rgb(129, 125, 125);
+}
+.contact li a:hover{
+    color: rgb(11, 219, 32);
+}
+
+.fa-instagram{
+    font-size: 20px;
+}
+
+footer{
+    background: rgb(250, 250, 250);
+    color: rgb(134, 130, 130);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+    border: 1px solid rgb(214, 211, 211);
+}
